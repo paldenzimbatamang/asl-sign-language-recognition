@@ -19,7 +19,7 @@ Classifies 24 static American Sign Language letters from 28×28 grayscale hand i
 - Ran 9 MLP experiments (depth, width, activation, learning rate) with early stopping, logging every run to W&B
 - Found a data leakage problem: the training file contains augmented near-copies of each photo, so a random validation split scored 100% while real test accuracy was 79%. I moved validation to half of the official test file and kept the other half for a single final evaluation
 
-This was a team of 3. A teammate built the Random Forest model.
+This was a team of 3. A teammate built the Random Forest model. Team repository: [bdipesh3045/Data-Science-project-AI-Class-](https://github.com/bdipesh3045/Data-Science-project-AI-Class-). This repo holds my own notebook.
 
 ## Data
 
